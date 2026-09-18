@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+
 import Breadcrumb from "@/components/breadcrumb";
 import ProductFeed from "@/components/product-feed";
 import Section from "@/components/section";

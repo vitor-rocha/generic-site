@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import type { Product } from "@/lib/products";
 
 export default function ProductCard({ product }: { product: Product }) {

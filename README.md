@@ -47,12 +47,12 @@ npm run format:check # Check formatting without changing files
 
 ## Routes
 
-| Route | Purpose |
-| --- | --- |
-| `/` | Main page with hero, featured products, benefits, FAQ, and CTA |
-| `/products` | Full local product catalog |
-| `/about` | Story, principles, and team/about content |
-| `/contact` | Contact information, address, and opening hours |
+| Route       | Purpose                                                        |
+| ----------- | -------------------------------------------------------------- |
+| `/`         | Main page with hero, featured products, benefits, FAQ, and CTA |
+| `/products` | Full local product catalog                                     |
+| `/about`    | Story, principles, and team/about content                      |
+| `/contact`  | Contact information, address, and opening hours                |
 
 Product cards currently link to anchors on `/products`. There are no product-detail routes yet.
 
@@ -105,13 +105,13 @@ Edit [src/lib/products.ts](src/lib/products.ts) to replace the sample catalog. E
 
 ```ts
 type Product = {
-	slug: string;
-	name: string;
-	category: string;
-	description: string;
-	price: string;
-	mark: string;
-	color: string;
+  slug: string;
+  name: string;
+  category: string;
+  description: string;
+  price: string;
+  mark: string;
+  color: string;
 };
 ```
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import ProductFeed from "@/components/product-feed";
 import Section from "@/components/section";
 import { products } from "@/lib/products";
