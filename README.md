@@ -1,6 +1,6 @@
-# Landing Page Template
+# Generic Site Template
 
-A reusable landing-page starter built with Next.js App Router, React, TypeScript, and Tailwind CSS v4. The included Fieldwork content is demo content intended to be replaced for each real project.
+A reusable site starter built with Next.js App Router, React, TypeScript, and Tailwind CSS v4. The included Fieldwork content is demo content intended to be replaced for each real project.
 
 ## Included
 
@@ -49,7 +49,7 @@ npm run format:check # Check formatting without changing files
 
 | Route | Purpose |
 | --- | --- |
-| `/` | Main landing page with hero, featured products, benefits, FAQ, and CTA |
+| `/` | Main page with hero, featured products, benefits, FAQ, and CTA |
 | `/products` | Full local product catalog |
 | `/about` | Story, principles, and team/about content |
 | `/contact` | Contact information, address, and opening hours |
